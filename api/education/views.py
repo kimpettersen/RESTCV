@@ -10,6 +10,12 @@ ALLOWED_ORIGINS = '*'
 ALLOWED_METHODS = 'GET,POST,PUT,DELETE,OPTIONS'
 
 
+from django.http import HttpResponse
+import json
+
+def index(request):
+    return HttpResponse(json.dumps({'name': 'Kim'}))
+
 # class EducationList(APIView):
 
 #     def get(self, request, format=None):
