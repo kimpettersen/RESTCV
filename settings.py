@@ -116,8 +116,8 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'api',
-    'api.education',
+    'RESTCV.api',
+    'RESTCV.api.education',
 
     # Uncomment the next line to enable the admin:
     # 'django.contrib.admin',
