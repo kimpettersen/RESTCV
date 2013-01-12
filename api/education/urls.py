@@ -1,6 +1,6 @@
 from django.conf.urls import patterns, url
 from rest_framework.urlpatterns import format_suffix_patterns
-from api.education import views
+from RESTCV.api.education import views
 
 
 urlpatterns = patterns('RESTCV.api.education',
