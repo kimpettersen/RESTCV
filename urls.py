@@ -8,6 +8,7 @@ urlpatterns = patterns('',
     # Examples:
     url(r'^api/education/$', include('api.education.urls')),
     url(r'^$', 'api.education.views.index'),
+    url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework'))
 
 
     # Uncomment the admin/doc line below to enable admin documentation:
