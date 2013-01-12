@@ -1,5 +1,5 @@
-from RESTCV.api.education.models import Education
-from RESTCV.api.education.serializers import EducationSerializer
+from api.education.models import Education
+from api.education.serializers import EducationSerializer
 from rest_framework import generics
 from django.http import Http404
 from rest_framework.views import APIView

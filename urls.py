@@ -6,8 +6,8 @@ from django.conf.urls.defaults import patterns, include, url
 
 urlpatterns = patterns('',
     # Examples:
-    url(r'^api/education/$', include('RESTCV.api.education.urls')),
-    url(r'^$', 'RESTCV.api.education.views.index'),
+    url(r'^api/education/$', include('api.education.urls')),
+    url(r'^$', 'api.education.views.index'),
 
 
     # Uncomment the admin/doc line below to enable admin documentation:

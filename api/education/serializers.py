@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from RESTCV.api.education.models import Education
+from api.education.models import Education
 
 
 class EducationSerializer(serializers.ModelSerializer):
